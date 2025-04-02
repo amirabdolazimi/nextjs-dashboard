@@ -20,6 +20,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     }
     // console.log("params : ", params.toString());
     // console.log("pathname", pathname);
+
     console.log(term);
 
     replace(`${pathname}?${params.toString()}`);
